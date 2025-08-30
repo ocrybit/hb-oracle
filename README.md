@@ -1,6 +1,6 @@
 # HyperBEAM Oracle
 
-This repo contains a minimum viable oracle device that fetches any web2 JSON API endpoints and serve the data to AOS processes.
+This repo contains a minimum viable oracle device that fetches any web2 JSON API endpoints and serves the data to AOS processes.
 
 - [dev_oracle](https://github.com/ocrybit/HyperBEAM/blob/c748c20814fbac156497f0c3ab8b014637b11231/src/dev_oracle.erl)
 - [test](./test/oracle.test.js)
