@@ -14,7 +14,7 @@ Handlers.add("Get", "Get", function (msg)
   msg.reply({ Data = tostring(count) })
 end)`
 
-describe("Hyperbeam Legacynet", function () {
+describe("Hyperbeam Oracle", function () {
   let hb, hbeam
   before(async () => {
     hbeam = await new HyperBEAM({ reset: true, as: ["genesis_wasm"] }).ready()
