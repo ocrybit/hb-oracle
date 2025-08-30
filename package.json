@@ -1,0 +1,13 @@
+{
+  "name": "hb-oracle",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-wasm-memory64 --test --test-concurrency=1",
+    "test-only": "node --experimental-wasm-memory64 --test-only --test-concurrency=1",
+    "test-all": "node --experimental-wasm-memory64 --test --test-concurrency=1 test/**/*.test.js"
+  },
+  "dependencies": {
+    "wao": "^0.35.6"
+  }
+}
